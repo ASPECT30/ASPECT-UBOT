@@ -3,14 +3,14 @@ from userbot import CMD_HELP, ALIVE_NAME
 from userbot.events import register
 
 
-@register(outgoing=True, pattern=r'^\.santet(?: |$)(.*)')
+@register(outgoing=True, pattern=r'^\.entod(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit(f"`{ALIVE_NAME} Berusaha Menyantet Jamet Ini`")
+    await typew.edit(f"`{ALIVE_NAME} Berusaha Menentod Jamet Ini`")
     sleep(2)
-    await typew.edit("`Mencari Nama Jamet Ini...`")
+    await typew.edit("`Mencari Nama Lonte Ini...`")
     sleep(1)
-    await typew.edit("`Santet Online Segera Dilakukan,Mampus Lu!!`")
+    await typew.edit("`entod Online Segera Dilakukan,Mampus Lu!!`")
     sleep(1)
     await typew.edit("0%")
     number = 1
@@ -319,5 +319,5 @@ async def typewriter(typew):
 CMD_HELP.update({
     'santetonline':
     '`.santet`\
-        \nUsage: Santet Online Buat Bercanda.'
+        \nUsage: Entod Online Cuma Buat Bercanda.'
 })
