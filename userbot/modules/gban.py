@@ -32,9 +32,9 @@ async def _(event):
             "/gban [user](tg://user?id={}) {}".format(r_from_id, reason)
         )
     await event.delete()
-    await event.reply("**gbanning...**")
+    await event.reply("**SEDANG gbanning Anak ngentod**")
     asyncio.sleep(3.5)
-    await event.edit(f"**User gbanned by {DEFAULTUSER}**")
+    await event.edit(f"**Anak ngentod telah di gban by {DEFAULTUSER}**")
     asyncio.sleep(5)
     await event.delete()
 
