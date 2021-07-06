@@ -6,7 +6,7 @@ from userbot.events import register
 @register(outgoing=True, pattern=r'^\.entod(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit(f"`{ALIVE_NAME} Berusaha Menentod Jamet Ini`")
+    await typew.edit(f"`{ALIVE_NAME} Berusaha Menentod Lonte Ini`")
     sleep(2)
     await typew.edit("`Mencari Nama Lonte Ini...`")
     sleep(1)
